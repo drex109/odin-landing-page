@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     color:#f9faf8;
-    max-width: 75%;
+    max-width: 60em;
     margin: auto;
 }
 .nav{
@@ -35,8 +35,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin: 5em 0em;
     gap: 2em;
 }
 .hero-text h1{
@@ -58,4 +57,103 @@ body{
 img{
     max-width: 100%;
     height: auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+    max-width: 60em;
+}
+.info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.info-squares{
+    display: flex;
+    gap: 3em;
+    
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+}
+.square p{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+.box{
+    border: 3px solid #3882f6;
+    border-radius: 1em;
+    width: 10em;
+    height: 10em;
+}
+.quote{
+    background-color: #e5e7eb;
+    width: 100%;
+    padding: 5em 0em;
+}
+.quote-body{
+    max-width: 50em;
+    margin: auto;
+}
+.quote-body p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937
+}
+.quote-sig{
+    max-width: 50em;
+    margin: auto;
+    text-align: end;
+    font-weight: bold;
+}
+.quote-sig p{
+    font-size: 26px;
+}
+.sign-up{
+    display: flex;
+    width: 100%;
+    max-width: 60em;
+    background-color: #3882f6;
+    border-radius: .5em;
+    color: white;
+    margin: 5em;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em;
+}
+.sign-up-text h4{
+    font-size: 18px;
+    margin: 0;
+}
+.sign-up-text p{
+    font-size: 14px;
+    margin: 0
+}
+.sign-up-button{
+    border: 3px solid white;
+    border-radius: .5em;
+    padding: .5em 1em; 
+}
+.sign-up-button button{
+    font-size: 18px;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+}
+.footer{
+    background-color: #1f2937;
+    text-align: center;
 }
